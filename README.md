@@ -1,14 +1,27 @@
 # C4-SiriusXM-EZR
 
-Simple Control4 IR Driver for the SiriusXM EZR. Most people will use internet streaming however this is a good option for those with grandfathered accounts, dealer free trials or unstable internet to be able to enjoy music. 
+A simple Control4 IR driver for the SiriusXM Onyx EZR. While most users will prefer internet streaming, this driver is ideal for:
 
-Can be combined with Source Pooling for multiples (https://drivercentral.io/platforms/control4-drivers/audio-video/source-pooling/) 
+- Grandfathered SiriusXM accounts  
+- Dealer trial units  
+- Scenarios with unstable internet connections  
 
-No power controls, the device is left always on to prevent power states from getting out of sync. 
+It allows continued access to SiriusXM content via IR control.
 
-# Settings
+This driver can also be combined with **Source Pooling** for setups with multiple devices:  
+[Source Pooling on DriverCentral](https://drivercentral.io/platforms/control4-drivers/audio-video/source-pooling/)
+
+> **Note:**  
+> Power controls are not included. The SiriusXM EZR unit is assumed to always be powered on to avoid desynchronization between the device state and Control4.
+
+---
+
+## Settings
+
 ![Direct screenshot](Direct.png)
 
-In the Driver Settings map the Pound # to Direct, when channing channels via a remote or touchscreen use #channel (ex: #46) to change to that channel. Channel up/down and menu/navigation options are fully working. 
+In the driver settings, map the **Pound `#` key** to **Direct**.
 
+To change channels via a remote or touchscreen, use the `#channel` format — for example: #46 to tune to channel 46 (The Heat)
 
+Channel up/down and menu/navigation functions are fully supported.
